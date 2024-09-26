@@ -22,7 +22,7 @@ const Dashboard = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [loading, setLoading] = useState(true);
 
-  const flatListRef = useRef(null); // Reference for FlatList
+  const flatListRef = useRef(null);
 
   useEffect(() => {
     const fetchData = async () => {
