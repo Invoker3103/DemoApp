@@ -142,7 +142,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#6200EE',
     padding: 10,
     borderRadius: 50,
-    elevation: 5,
+    elevation: 5, //for windows
   },
   scrollButtonText: {
     color: '#fff',
